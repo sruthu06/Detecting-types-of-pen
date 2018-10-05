@@ -72,7 +72,7 @@ while(1):
             
            
     	
-    	cv2.imshow("Color Tracking",img)
+    	cv2.imshow("Pen Tracking",img)
     	
     	if cv2.waitKey(10) & 0xFF == ord('q'):
     		cap.release()
